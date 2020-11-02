@@ -1,0 +1,43 @@
+#topPost {
+    background-color: rgb(235, 176, 0);
+    width: 10px;
+    height: 70px;
+    margin: auto;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#head {
+    background-color: rgb(255, 191, 0);
+    width: 68px;
+    height: 177px;
+    margin: auto;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    &.red {background-color: rgb(180, 0, 0); margin-bottom: 5px;}
+    &.yellow {background-color: rgba(255, 255, 0, 0.541); margin-bottom: 5px;}
+    &.green {background-color: rgb(0, 134, 0);}
+    &.selectedRed {box-shadow: #f8ffce 0px 0px 20px 10px; background-color: red;}
+    &.selectedYellow {box-shadow: #f8ffce 0px 0px 20px 10px; background-color: yellow;}
+    &.selectedGreen {box-shadow: #f8ffce 0px 0px 20px 10px; background-color: rgb(0, 206, 0);}
+}
+
+.light:hover {
+    border: 1px solid rgb(255, 191, 0);
+}
+
+#text {
+    text-align: center;
+    margin-top: 30px;
+}
